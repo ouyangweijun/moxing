@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+{% for book in list %}
+<li>{{ book.btitle }}--{{ book.bread }}--{{ book.bcomment }}</li>
+{% endfor %}
+</ul>
+<hr>
+{{ max }}
+</body>
+</html>
